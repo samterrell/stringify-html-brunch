@@ -1,0 +1,29 @@
+{
+  "name": "stringify-html-brunch",
+  "version": "1.0.0",
+  "description": "Converts html files into importable strings.",
+  "author": "Sam Terrell <samterrell@gmail.com> (https://github.com/samterrell)",
+  "license": "WTFPL",
+  "keywords": "brunch template static html",
+  "main": "index",
+  "homepage": "https://github.com/samterrell/stringify-html-brunch",
+  "bugs": {
+    "url": "https://github.com/samterrell/stringify-html-brunch/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:samterrell/stringify-html-brunch.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/eslint index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^2.1.0"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "node": true
+  }
+}
